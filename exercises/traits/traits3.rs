@@ -11,7 +11,7 @@
 
 pub trait Licensed {
     fn licensing_info(&self) -> String {
-        String::from("some information")
+        String::from("Some information")
     }
 }
 
